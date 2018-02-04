@@ -70,7 +70,7 @@
                           <span>财务管理</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="boxed_page.html">Boxed Page</a></li>
+                          <li><a  href="boxed_page.html">结算管理</a></li>
                       </ul>
                   </li>
 
@@ -80,7 +80,7 @@
                           <span>个人设置</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="boxed_page.html">Boxed Page</a></li>
+                          <li><a  href="boxed_page.html">账号管理</a></li>
                       </ul>
                   </li>
               </ul>
