@@ -1,6 +1,6 @@
                 <ul class="sidebar-menu" id="nav-accordion">
                   <li>
-                      <a class="active" href="">
+                      <a class="active" href="/">
                           <i class="fa fa-dashboard"></i>
                           <span>Dashboard</span>
                       </a>
@@ -12,7 +12,7 @@
                           <span>SSP管理</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="">客户信息</a></li>
+                          <li><a  href="ssp">客户信息</a></li>
                           <li><a  href="">应用管理</a></li>
                           <li><a  href="">广告位信息</a></li>
                           <li><a  href="">流量报表</a></li>
