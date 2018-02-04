@@ -8,7 +8,7 @@
 
                   <li class="sub-menu">
                       <a href="javascript:;" >
-                          <i class="fa fa-laptop"></i>
+                          <i class="fa fa-user"></i>
                           <span>SSP管理</span>
                       </a>
                       <ul class="sub">
@@ -21,7 +21,7 @@
 
                   <li class="sub-menu">
                       <a href="javascript:;" >
-                          <i class="fa fa-laptop"></i>
+                          <i class="fa fa-user"></i>
                           <span>DSP管理</span>
                       </a>
                       <ul class="sub">
@@ -32,7 +32,7 @@
 
                   <li class="sub-menu">
                       <a href="javascript:;" >
-                          <i class="fa fa-laptop"></i>
+                          <i class="fa fa-user"></i>
                           <span>PMP管理</span>
                       </a>
                       <ul class="sub">
@@ -43,7 +43,7 @@
 
                   <li class="sub-menu">
                       <a href="javascript:;" >
-                          <i class="fa fa-laptop"></i>
+                          <i class="fa fa-th"></i>
                           <span>API管理</span>
                       </a>
                       <ul class="sub">
@@ -55,7 +55,7 @@
 
                   <li class="sub-menu">
                       <a href="javascript:;" >
-                          <i class="fa fa-laptop"></i>
+                          <i class="fa fa-book"></i>
                           <span>直投管理</span>
                       </a>
                       <ul class="sub">
@@ -66,7 +66,7 @@
 
                   <li class="sub-menu">
                       <a href="javascript:;" >
-                          <i class="fa fa-laptop"></i>
+                          <i class="fa fa-bar-chart-o"></i>
                           <span>财务管理</span>
                       </a>
                       <ul class="sub">
@@ -76,7 +76,7 @@
 
                   <li class="sub-menu">
                       <a href="javascript:;" >
-                          <i class="fa fa-laptop"></i>
+                          <i class="fa fa-cogs"></i>
                           <span>个人设置</span>
                       </a>
                       <ul class="sub">
