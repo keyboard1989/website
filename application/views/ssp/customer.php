@@ -62,6 +62,37 @@
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper">
+
+          <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                             添加搜索SSP用户 
+                          </header>
+                          <div class="panel-body">
+                              <form class="form-inline" role="form">
+                                  <div class="form-group">
+                                      <label class="sr-only" for="exampleInputEmail2">公司名称</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="公司名称">
+                                  </div>
+                                  <div class="form-group">
+                                      <label class="sr-only" for="exampleInputPassword2">SSP名称</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword2" placeholder="SSP名称">
+                                  </div>
+                                  <div class="form-group">
+                                      <label class="sr-only" for="exampleInputPassword2">邮箱</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword2" placeholder="邮箱">
+                                  </div>
+                                  <button type="submit" class="btn btn-success">搜索</button>
+                                  <button type="submit" class="btn btn-success">添加</button>
+                              </form>
+
+                          </div>
+                      </section>
+
+                  </div>
+              </div>
+
           <div class="row">
                   <div class="col-lg-12">
                       <section class="panel">

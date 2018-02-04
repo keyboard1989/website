@@ -13,9 +13,9 @@
                       </a>
                       <ul class="sub">
                           <li><a  href="ssp">客户信息</a></li>
-                          <li><a  href="">应用管理</a></li>
-                          <li><a  href="">广告位信息</a></li>
-                          <li><a  href="">流量报表</a></li>
+                          <li><a  href="app">应用管理</a></li>
+                          <li><a  href="place">广告位信息</a></li>
+                          <li><a  href="sspdata">流量报表</a></li>
                       </ul>
                   </li>
 
@@ -25,8 +25,8 @@
                           <span>DSP管理</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="">客户信息</a></li>
-                          <li><a  href="">广告数据</a></li>
+                          <li><a  href="dsp">客户信息</a></li>
+                          <li><a  href="dspdata">广告数据</a></li>
                       </ul>
                   </li>
 
@@ -82,6 +82,16 @@
                       </a>
                       <ul class="sub">
                           <li><a  href="">结算管理</a></li>
+                      </ul>
+                  </li>
+                  
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-cogs"></i>
+                          <span>用户管理</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="">用户列表</a></li>
                       </ul>
                   </li>
 
