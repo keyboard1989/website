@@ -23,27 +23,27 @@
             <div class="top-nav ">
                 <!--search & user info start-->
                 <ul class="nav pull-right top-menu">
-                    <li>
+                    <!-- <li>
                         <input type="text" class="form-control search" placeholder="Search">
-                    </li>
+                    </li> -->
                     <!-- user login dropdown start-->
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <img alt="" src="img/avatar1_small.jpg">
-                            <span class="username">Jhon Doue</span>
+                            <span class="username">张勇</span>
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu extended logout">
                             <div class="log-arrow-up"></div>
-                            <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
-                            <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
-                            <li><a href="#"><i class="fa fa-bell-o"></i> Notification</a></li>
-                            <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+                            <li><a href="#"><i class=" fa fa-suitcase"></i>账号管理</a></li>
+                            <li><a href="#"><i class="fa fa-cog"></i> 设置</a></li>
+                            <li><a href="#"><i class="fa fa-bell-o"></i> 通知</a></li>
+                            <li><a href="user"><i class="fa fa-key"></i> 退出登录</a></li>
                         </ul>
                     </li>
-                    <li class="sb-toggle-right">
+                    <!-- <li class="sb-toggle-right">
                         <i class="fa  fa-align-right"></i>
-                    </li>
+                    </li> -->
                     <!-- user login dropdown end -->
                 </ul>
                 <!--search & user info end-->
@@ -73,7 +73,7 @@
                               <h1 class="count">
                                   0
                               </h1>
-                              <p>New Users</p>
+                              <p>SSP客户数</p>
                           </div>
                       </section>
                   </div>
@@ -86,7 +86,7 @@
                               <h1 class=" count2">
                                   0
                               </h1>
-                              <p>Sales</p>
+                              <p>DSP客户数</p>
                           </div>
                       </section>
                   </div>
@@ -99,7 +99,7 @@
                               <h1 class=" count3">
                                   0
                               </h1>
-                              <p>New Order</p>
+                              <p>当日总请求</p>
                           </div>
                       </section>
                   </div>
@@ -112,7 +112,7 @@
                               <h1 class=" count4">
                                   0
                               </h1>
-                              <p>Total Profit</p>
+                              <p>当日总流水</p>
                           </div>
                       </section>
                   </div>

@@ -12,10 +12,10 @@
                           <span>SSP管理</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="boxed_page.html">客户信息</a></li>
-                          <li><a  href="boxed_page.html">应用管理</a></li>
-                          <li><a  href="boxed_page.html">广告位信息</a></li>
-                          <li><a  href="boxed_page.html">流量报表</a></li>
+                          <li><a  href="">客户信息</a></li>
+                          <li><a  href="">应用管理</a></li>
+                          <li><a  href="">广告位信息</a></li>
+                          <li><a  href="">流量报表</a></li>
                       </ul>
                   </li>
 
@@ -25,8 +25,8 @@
                           <span>DSP管理</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="boxed_page.html">客户信息</a></li>
-                          <li><a  href="boxed_page.html">广告数据</a></li>
+                          <li><a  href="">客户信息</a></li>
+                          <li><a  href="">广告数据</a></li>
                       </ul>
                   </li>
 
@@ -36,8 +36,8 @@
                           <span>PMP管理</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="boxed_page.html">客户信息</a></li>
-                          <li><a  href="boxed_page.html">广告数据</a></li>
+                          <li><a  href="">客户信息</a></li>
+                          <li><a  href="">广告数据</a></li>
                       </ul>
                   </li>
 
@@ -47,9 +47,9 @@
                           <span>API管理</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="boxed_page.html">API信息</a></li>
-                          <li><a  href="boxed_page.html">API投放配置</a></li>
-                          <li><a  href="boxed_page.html">API数据</a></li>
+                          <li><a  href="">API信息</a></li>
+                          <li><a  href="">API投放配置</a></li>
+                          <li><a  href="">API数据</a></li>
                       </ul>
                   </li>
 
@@ -59,8 +59,19 @@
                           <span>直投管理</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="boxed_page.html">投放管理</a></li>
-                          <li><a  href="boxed_page.html">投放数据</a></li>
+                          <li><a  href="">投放管理</a></li>
+                          <li><a  href="">投放数据</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-book"></i>
+                          <span>离线广告</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="">离线设置</a></li>
+                          <li><a  href="">点击转化数据</a></li>
                       </ul>
                   </li>
 
@@ -70,7 +81,7 @@
                           <span>财务管理</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="boxed_page.html">结算管理</a></li>
+                          <li><a  href="">结算管理</a></li>
                       </ul>
                   </li>
 
@@ -80,7 +91,7 @@
                           <span>个人设置</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="boxed_page.html">账号管理</a></li>
+                          <li><a  href="">账号管理</a></li>
                       </ul>
                   </li>
               </ul>
