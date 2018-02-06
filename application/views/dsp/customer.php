@@ -67,7 +67,7 @@
                   <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
-                             添加搜索SSP用户 
+                             添加搜索DSP用户 
                           </header>
                           <div class="panel-body">
                               <form class="form-inline" role="form">                                  
@@ -76,8 +76,8 @@
                                       <input type="email" class="form-control" id="exampleInputEmail2" placeholder="公司名称">
                                   </div>
                                   <div class="form-group">
-                                      <label class="sr-only" for="exampleInputPassword2">SSP名称</label>
-                                      <input type="text" class="form-control" id="exampleInputPassword2" placeholder="SSP名称">
+                                      <label class="sr-only" for="exampleInputPassword2">DSP名称</label>
+                                      <input type="text" class="form-control" id="exampleInputPassword2" placeholder="DSP名称">
                                   </div>
                                   <div class="form-group">
                                       <label class="sr-only" for="exampleInputPassword2">邮箱</label>
@@ -97,15 +97,17 @@
                   <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
-                              SSP用户列表
+                              DSP用户列表
                           </header>
                           <table class="table table-striped table-advance table-hover">
                               <thead>
                               <tr>
-                                  <th class="fa fa-bullhorn"><i class="fa"></i> SSP_ID</th>
+                                  <th class="fa fa-bullhorn"><i class="fa"></i> DSP_ID</th>
                                   <th><i class="hidden-phone"></i> 公司名称</th>
-                                  <th><i class="fa"></i> SSP名称</th>
-                                  <th class="hidden-phone"><i class="fa"></i> SSP_TOKEN</th>
+                                  <th><i class="fa"></i> DSP名称</th>
+                                  <th class="hidden-phone"><i class="fa"></i> DSP_TOKEN</th>
+                                  <th class="hidden-phone"><i class="fa"></i> DSP_SECRET</th>
+                                  <th class="hidden-phone"><i class="fa"></i> DSP_QPS</th>
                                   <th class="hidden-phone"><i class="fa"></i> 邮箱</th>
                                   <th><i class="fa"></i> 联系人</th>
                                   <th></th>
@@ -117,6 +119,8 @@
                                   <td><a href="#">新义互联科技有限公司</a></td>
                                   <td><a href="#">新义互联</a></td>
                                   <td class="hidden-phone">u89zsdjjkxyTIxm</td>
+                                  <td class="hidden-phone">u89zsdjjkxyTIxm</td>
+                                  <td class="hidden-phone">200</td>
                                   <td class="hidden-phone">923048755@qq.com</td>
                                   <td>张勇</td>
                                   <td>
@@ -132,6 +136,8 @@
                                   <td><a href="#">新义互联科技有限公司</a></td>
                                   <td><a href="#">新义互联</a></td>
                                   <td class="hidden-phone">u89zsdjjkxyTIxm</td>
+                                  <td class="hidden-phone">u89zsdjjkxyTIxm</td>
+                                  <td class="hidden-phone">400</td>
                                   <td class="hidden-phone">923048755@qq.com</td>
                                   <td>张勇</td>
                                   <td>

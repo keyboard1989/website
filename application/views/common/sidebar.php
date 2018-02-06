@@ -16,6 +16,7 @@
                           <li><a  href="app">应用管理</a></li>
                           <li><a  href="place">广告位信息</a></li>
                           <li><a  href="sspdata">流量报表</a></li>
+                          <li><a  href="sspdata">收入分配</a></li>
                       </ul>
                   </li>
 
@@ -26,6 +27,7 @@
                       </a>
                       <ul class="sub">
                           <li><a  href="dsp">客户信息</a></li>
+                          <li><a  href="dsp">DSP设置</a></li>
                           <li><a  href="dspdata">广告数据</a></li>
                       </ul>
                   </li>

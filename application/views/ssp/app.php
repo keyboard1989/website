@@ -67,21 +67,46 @@
                   <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
-                             添加搜索SSP用户 
+                             添加搜索app应用 
                           </header>
                           <div class="panel-body">
-                              <form class="form-inline" role="form">                                  
+                              <form class="form-inline" role="form">
                                   <div class="form-group">
-                                      <label class="sr-only" for="exampleInputEmail2">公司名称</label>
-                                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="公司名称">
+                                    <select class="form-control">
+                                            <option>SSP名称</option>
+                                            <option>今日头条</option>
+                                            <option>网上厨房</option>
+                                            <option>360</option>
+                                    </select>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <select class="form-control">
+                                            <option>系统类型</option>
+                                            <option>android</option>
+                                            <option>ios</option>
+                                    </select>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <label class="sr-only" for="exampleInputEmail2">应用名称</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="应用名称">
                                   </div>
                                   <div class="form-group">
-                                      <label class="sr-only" for="exampleInputPassword2">SSP名称</label>
-                                      <input type="text" class="form-control" id="exampleInputPassword2" placeholder="SSP名称">
+                                      <label class="sr-only" for="exampleInputEmail2">包名</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="包名">
                                   </div>
                                   <div class="form-group">
-                                      <label class="sr-only" for="exampleInputPassword2">邮箱</label>
-                                      <input type="text" class="form-control" id="exampleInputPassword2" placeholder="邮箱">
+                                      <label class="sr-only" for="exampleInputEmail2">下载地址</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="下载地址">
+                                  </div>
+                                  <div class="form-group">
+                                    <select class="form-control">
+                                            <option>媒体类型</option>
+                                            <option>新闻</option>
+                                            <option>娱乐</option>
+                                            <option>体育</option>
+                                    </select>
                                   </div>
                                   <button type="submit" class="btn btn-success">搜索</button>
                                   <button type="submit" class="btn btn-success">添加</button>
@@ -97,28 +122,30 @@
                   <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
-                              SSP用户列表
+                              APP应用列表
                           </header>
                           <table class="table table-striped table-advance table-hover">
                               <thead>
                               <tr>
-                                  <th class="fa fa-bullhorn"><i class="fa"></i> SSP_ID</th>
-                                  <th><i class="hidden-phone"></i> 公司名称</th>
+                                  <th class="fa"><i class="fa"></i> APPID</th>
+                                  <th><i class="hidden-phone"></i> APP名称</th>
                                   <th><i class="fa"></i> SSP名称</th>
-                                  <th class="hidden-phone"><i class="fa"></i> SSP_TOKEN</th>
-                                  <th class="hidden-phone"><i class="fa"></i> 邮箱</th>
-                                  <th><i class="fa"></i> 联系人</th>
+                                  <th><i class="fa"></i> 系统类型</th>
+                                  <th class="hidden-phone"><i class="fa"></i> 包名</th>
+                                  <th class="hidden-phone"><i class="fa"></i> 下载地址</th>
+                                  <th><i class="fa"></i> 类型</th>
                                   <th></th>
                               </tr>
                               </thead>
                               <tbody>
                               <tr>
                                   <td class="hidden-phone">1</td>
-                                  <td><a href="#">新义互联科技有限公司</a></td>
-                                  <td><a href="#">新义互联</a></td>
-                                  <td class="hidden-phone">u89zsdjjkxyTIxm</td>
-                                  <td class="hidden-phone">923048755@qq.com</td>
-                                  <td>张勇</td>
+                                  <td><a href="#">王者荣耀</a></td>
+                                  <td><a href="#">腾讯</a></td>
+                                  <td><a href="#">android</a></td>
+                                  <td class="hidden-phone">com.wangzherongyao.cn</td>
+                                  <td class="hidden-phone">www.qq.com</td>
+                                  <td>游戏</td>
                                   <td>
                                       <button class="btn btn-success btn-xs"><i class="fa fa-check"></i></button>
                                       <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>
@@ -129,11 +156,12 @@
                               <?php for ($i=2;$i<11;$i++) {?>
                                 <tr>
                                   <td class="hidden-phone"><?php echo $i;?></td>
-                                  <td><a href="#">新义互联科技有限公司</a></td>
-                                  <td><a href="#">新义互联</a></td>
-                                  <td class="hidden-phone">u89zsdjjkxyTIxm</td>
-                                  <td class="hidden-phone">923048755@qq.com</td>
-                                  <td>张勇</td>
+                                  <td><a href="#">王者荣耀</a></td>
+                                  <td><a href="#">腾讯</a></td>
+                                  <td><a href="#">android</a></td>
+                                  <td class="hidden-phone">com.wangzherongyao.cn</td>
+                                  <td class="hidden-phone">www.qq.com</td>
+                                  <td>游戏</td>
                                   <td>
                                       <button class="btn btn-success btn-xs"><i class="fa fa-check"></i></button>
                                       <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>
